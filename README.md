@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 竹笛练习器 v2.0 - FluteMaster
 
-# Run and deploy your AI Studio app
+竹笛练习器完整版，包含第二十三课7首准确练习曲，支持D调竹笛（筒音作5）练习。
 
-This contains everything you need to run your app locally.
+## ✨ 功能特点
 
-View your app in AI Studio: https://ai.studio/apps/302afeb6-057b-4ddf-bf98-6da5411ec6f4
+- 🎵 **完整练习曲**：第二十三课7首准确练习曲
+- 🎼 **调性选择**：支持C D E F G A B 7个调性
+- ⏱️ **速度控制**：40-200 BPM可调
+- 📱 **响应式设计**：支持手机、平板、电脑
+- 🎨 **现代界面**：精美动画，流畅交互
+- 🎯 **练习统计**：章节进度、小节计数、建议速度
 
-## Run Locally
+## 📚 练习曲内容
 
-**Prerequisites:**  Node.js
+1. **练习1** - 基础长音练习（低音5-高音6）
+2. **练习2** - 音阶长音练习（全音域）
+3. **练习3** - 八分音阶练习（上下行）
+4. **练习4** - 复杂音阶模式（包含两个高音点）
+5. **练习5** - 跳跃音符组合（73个音符）
+6. **练习6** - 综合组合练习（221个音符，最长）
+7. **练习7** - 高音区长音练习（高音1-6）
 
+## 🚀 本地运行
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+```
+
+## 📖 技术栈
+
+- React 19 + Vite 6 + TypeScript
+- Tailwind CSS 4 + Motion动画
+- Web Audio API 音效系统
+- Lucide React 图标库
+
+## 🎵 曲谱信息
+
+- **调号**：1=C（D调竹笛・筒音作5）
+- **拍号**：4/4拍
+- **速度**：♩=80
+
+## 📝 更新日志
+
+- 2026.04.17 - v2.0 发布
+  - 完整7首准确练习曲替换
+  - 现代化UI设计
+  - 完整的练习系统功能
+
+## 🌐 在线访问
+
+https://xianhaishanren.github.io/flutemaster/
+
+---
+
+**Created by Google AI Studio & Enhanced by AI Assistant**  
+**竹笛练习器 - 让练习更高效！**
